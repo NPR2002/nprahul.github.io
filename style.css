@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+ background-color: rgba(31, 31, 31, 0.877);
+}
+div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    flex-direction: column;
+}
+h1{
+    color: aquamarine;
+    font-size: 3cm;
+    font-family: chiller;
+}
+h2
+{
+    margin-top: 1cm;
+    letter-spacing: 0.1cm;
+}
+span{
+ color:rgb(253, 198, 59)
+}
+h2:nth-child(2)
+{
+    font-size: 4cm;
+    color:rgb(255, 127, 127)
+}
+h2:nth-child(3)
+{
+    font-size: 2cm;
+    color: antiquewhite;
+}
